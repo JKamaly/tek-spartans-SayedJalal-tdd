@@ -8,9 +8,9 @@ public class MyFirstTest {
      public void runBeforeMethod(){
          System.out.println("This before each method the method");
 
- }
- @BeforeTest
- public void runBeforeTest(){
+    }
+   @BeforeTest
+    public void runBeforeTest(){
 
      System.out.println("Runs before each test!");
  }
