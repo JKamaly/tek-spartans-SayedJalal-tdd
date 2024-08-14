@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class Activity1 {
 
-    public static WebDriver driver;
+    private WebDriver driver;
 
     @BeforeMethod
     public void setupTest(){
@@ -33,11 +33,6 @@ public class Activity1 {
     public void tearDown(){
         driver.quit();
     }
-
-
-
-
-
 
 
 }
